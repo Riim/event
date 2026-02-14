@@ -1,0 +1,39 @@
+{
+  "name": "@riim/event",
+  "version": "0.2.0",
+  "description": "",
+  "homepage": "https://github.com/Riim/event#readme",
+  "bugs": {
+    "url": "https://github.com/Riim/event/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riim/event.git"
+  },
+  "license": "MIT",
+  "author": "Dmitry Vibe",
+  "type": "commonjs",
+  "main": "dist/event.js",
+  "typings": "dist/event.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && npx tsc && rolldown -c && babel dist --out-dir dist",
+    "test": "rm -rf coverage && jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.28.6",
+    "@babel/core": "7.29.0",
+    "@babel/plugin-transform-block-scoping": "7.28.6",
+    "@eslint/js": "9.39.3",
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
+    "@types/jest": "30.0.0",
+    "@typescript-eslint/parser": "8.56.1",
+    "eslint": "9.39.3",
+    "eslint-plugin-github": "6.0.0",
+    "globals": "17.3.0",
+    "jest": "30.2.0",
+    "rolldown": "1.0.0-rc.6",
+    "ts-jest": "29.4.6",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.56.1"
+  }
+}
