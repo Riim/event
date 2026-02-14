@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+node_modules
+
+/src
+/.editorconfig
+/.gitignore
+/.npmrc
+/.prettierrc
+/babel.config.js
+/eslint.config.mjs
+/rolldown.config.mjs
+/tsconfig.json
